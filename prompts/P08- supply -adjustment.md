@@ -70,11 +70,40 @@ High (~70%)
 | Wrong action choice | Human validation |
 
 ---
-
 ## 🔄 Version History
 
-v1.0 → basic
-v1.1 → structured + actionable ✅
+### v1.0 — Initial draft  
+**Prompt:** Suggest actions to address inventory risks.  
+
+**Output:**  
+Generated general recommendations such as “reduce stock” or “increase sales” without specifying products, priorities, or expected outcomes.  
+
+**Observed effect:**  
+- Output was too vague and not actionable  
+- No clear link between identified risks and recommended actions  
+- Managers still needed to manually interpret and decide next steps  
+
+---
+
+### v1.1 — Structured and actionable mitigation plan ✅ Current  
+
+**Change:**  
+- Added requirement for **3 priority actions**  
+- Included **target products for each action**  
+- Added **expected outcomes (e.g. reduce waste, increase sales)**  
+- Introduced **risk awareness if actions are not taken**  
+- Enforced **bullet-point structured output**  
+
+**Output:**  
+Clear, actionable mitigation plan linking inventory risks to specific operational actions and expected results.  
+
+**Observed effect:**  
+- Managers could directly apply recommendations without further interpretation  
+- Faster decision-making (reduced planning time significantly)  
+- Improved alignment between risk detection (P06, P07) and action  
+
+**Lesson learned:**  
+Action-oriented prompts with **explicit structure and business outcomes** significantly improve usability and operational impact.
 
 ---
 
