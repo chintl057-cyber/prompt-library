@@ -1,10 +1,8 @@
-# P01 · Sales trend summary and insights
+P01. Sales trend summary and insights
 
-**Section:** 01 — Demand Analysis
-**Workflow step:** Step 1 of 3
-**Current version:** v1.2
-**Status:** ✅ Tested
-**Last updated:** [Date]
+Section: 01 — Demand Analysis
+
+Workflow step: Step 1 of 3
 
 ---
 
@@ -16,7 +14,7 @@ Identify:
 
 * Top 3 best-selling products (by sales volume)
 * Top 3 declining products (largest decrease vs previous period)
-* Any notable patterns (e.g. seasonal trends, demand shifts)
+* Any notable patterns (seasonal trends, demand shifts)
 * 2 key insights for inventory planning
 * 2 potential risks if trends continue
 
@@ -28,7 +26,6 @@ Sales data:
 Respond in bullet points only.
 Limit to 200 words.
 Do not include any explanation outside the requested output.
-
 ---
 
 ## 🧩 Placeholders to fill
@@ -41,10 +38,10 @@ Do not include any explanation outside the requested output.
 
 ## 🏢 Intended Workflow or Task
 
-* **Trigger:** Weekly sales data generated from POS system
-* **Integration:** Output used by inventory managers before forecasting and replenishment decisions
-* **Timing:** Runs automatically at end of each week
-* **Next step:** P02 (Demand forecast) uses insights for prediction
+* Trigger: Weekly sales data generated from POS system
+* Integration: Output used by inventory managers before forecasting and replenishment decisions
+* Timing: Runs automatically at end of each week
+* Next step: P02 (Demand forecast) uses insights for prediction
 
 Sales data generated → [P01 RUNS] → Insights produced
 → Used for demand forecasting → Inventory decisions made
@@ -55,8 +52,8 @@ Sales data generated → [P01 RUNS] → Insights produced
 
 Store managers manually analyse sales reports to identify trends.
 
-* Takes **1–2 hours per week per store**
-* Results vary depending on manager experience
+* Takes 1–2 hours per week per store**
+* Results vary depending on manager's experience
 * Slows down inventory decision-making
 
 At scale (50+ stores), this creates **significant time cost and inconsistent planning decisions**.
