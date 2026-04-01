@@ -43,24 +43,20 @@ prompt-library/
 ├── README.md ← You are here (library index)
 
 ├── 01-demand-analysis/
-│   ├── README.md
 │   ├── P01-sales-trend-summary.md
 │   ├── P02-demand-forecast.md
 │   ├── P03-seasonality-detection.md
 
 ├── 02-inventory-management/
-│   ├── README.md
 │   ├── P04-low-stock-alert.md
 │   ├── P05-reorder-recommendation.md
 
 ├── 03-risk-monitoring/
-│   ├── README.md
 │   ├── P06-overstock-detection.md
 │   ├── P07-expiry-risk-analysis.md
 │   ├── P08-supply-delay-impact.md
 
 ├── 04-reporting/
-│   ├── README.md
 │   ├── P09-weekly-inventory-report.md
 │   ├── P10-store-performance-comparison.md
 ```
