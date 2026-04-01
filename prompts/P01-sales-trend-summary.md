@@ -1,8 +1,11 @@
 📊 P01. Sales trend summary and insights
 
 Section: 01 — Demand Analysis
+
 Workflow step: Step 1 of 3
+
 Current version: v1.2
+
 Status: ✅ Tested
 
 ---
