@@ -119,19 +119,19 @@ Overall risk rating: MEDIUM — suitable for decision support with human validat
 
 ### v1.0 — Initial draft
 
-Prompt: Upload this dataset. Summarise sales data.
-Output: Generic summary with little business value
-Observed effect:Managers still needed to manually analyse data
-Lesson learned:Need structured outputs and clear objectives
+* Prompt: Upload this dataset. Summarise sales data.
+* Output: Generic summary with little business value
+* Observed effect:Managers still needed to manually analyse data
+* Lesson learned:Need structured outputs and clear objectives
 
 ---
 
 ### v1.1 — Added role and structure
 
-Change: Added analyst role and required outputs (top products, trends)
-Output: More relevant but inconsistent format
-Observed effect: Difficult to compare outputs across weeks
-Lesson learned: Need consistent formatting constraints
+* Change: Added analyst role and required outputs (top products, trends)
+* Output: More relevant but inconsistent format
+* Observed effect: Difficult to compare outputs across weeks
+* Lesson learned: Need consistent formatting constraints
 
 ---
 
@@ -144,9 +144,9 @@ Change: Added:
 * explicit required outputs
 * grounding constraint
 
-Output: Clear, consistent, and actionable insights
-Observed effect: Reliable outputs for weekly reporting and planning
-Lesson learned: Structured prompts with constraints improve consistency and usability
+* Output: Clear, consistent, and actionable insights
+* Observed effect: Reliable outputs for weekly reporting and planning
+* Lesson learned: Structured prompts with constraints improve consistency and usability
 
 ---
 
